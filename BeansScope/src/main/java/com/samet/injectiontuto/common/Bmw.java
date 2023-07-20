@@ -8,6 +8,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 @Scope(ConfigurableBeanFactory.SCOPE_PROTOTYPE)
+//it provides making our class prototype,which means created instances will represent different fields,
 public class Bmw implements Car{
 
     public Bmw(){
