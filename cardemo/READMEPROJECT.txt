@@ -1,0 +1,1 @@
+This project was created to show how spring convert Java POJO to JSON
