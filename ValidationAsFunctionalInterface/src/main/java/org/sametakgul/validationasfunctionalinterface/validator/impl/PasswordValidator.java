@@ -5,6 +5,10 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class PasswordValidator implements Validator<String> {
+
+    public PasswordValidator(){
+        System.out.println("PasswordValidator created");
+    }
     @Override
     public boolean validate(String password) {
         return password != null && password.length() >= 8;
